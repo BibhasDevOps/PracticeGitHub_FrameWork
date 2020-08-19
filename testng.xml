@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+  <test name="Get Connection">
+  <parameter name="Browser" value="Chrome" />
+    <classes>
+      <class name="com.nihilent.com.testCases.Verify_Create_Residential_Cust_TC"/>
+    </classes>
+  </test> 
+</suite> 
